@@ -59,7 +59,7 @@ def automate_notepad():
  
     current_time = datetime.now().strftime("%H-%M")
     filename = current_time + "-note.txt"
-    save_path = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\NotePad\\"  # Replace with your desired folder path
+    save_path = # Replace with your desired folder path
     file_path = save_path + filename
 
     pyautogui.hotkey('ctrl', 's')
