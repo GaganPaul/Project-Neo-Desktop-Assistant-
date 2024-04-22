@@ -71,7 +71,7 @@ def TaskExe():
                 tell_joke()
 
             elif 'recite' in query:
-                SpeakFromFile('C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\Speak\\ReadFiles\\')
+                SpeakFromFile('add your path\\ReadFiles\\')
 
             elif 'speed test' in query:
                 SpeedTest()
