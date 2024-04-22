@@ -30,11 +30,11 @@ class Gui_Start(QMainWindow):
         self.neo_ui.pushButton_2.clicked.connect(self.close)
 
     def startFunc(self):
-        self.movies = QtGui.QMovie("DataBase/Gui/VoiceReg/Siri_1.gif")
+        self.movies = QtGui.QMovie("add your path/DataBase/Gui/VoiceReg/Siri_1.gif")
         self.neo_ui.gif.setMovie(self.movies)
         self.movies.start()
 
-        self.neo_ui.movies_2 = QtGui.QMovie("DataBase/Gui/B.G_Template_1.gif")
+        self.neo_ui.movies_2 = QtGui.QMovie("add your path/DataBase/Gui/B.G_Template_1.gif")
 
         self.neo_ui.gif2.setMovie(self.neo_ui.movies_2)
 
