@@ -15,7 +15,7 @@ def Speak(audio):
     engine.runAndWait()
     print(" ")
 
-Api_Key = "0ssplvONXaZjNiWBgNzAzpXrjSmgbgW2ea8isXBn"
+Api_Key = "Add Your API KEY"
 
 def NasaNews(Date):
 
@@ -44,9 +44,9 @@ def NasaNews(Date):
 
         f.write(Image_r.content)
 
-    Path_1 = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\" + str(FileName)
+    Path_1 = "add your path\\Complete NEO series\\" + str(FileName)
 
-    Path_2 = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\NasaDataBase\\" + str(FileName)
+    Path_2 = "add your path\\NasaDataBase\\" + str(FileName)
 
     os.rename(Path_1, Path_2)
 
