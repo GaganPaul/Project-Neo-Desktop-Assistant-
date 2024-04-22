@@ -2,11 +2,11 @@ import os
 from playsound import playsound
 import datetime
 
-extracted_time = open('C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\Text-Features\\Data.txt','rt')
+extracted_time = open('add your path\\Data.txt','rt')
 time = extracted_time.read()
 Time = str(time)
 
-delete_time = open("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\Text-Features\\Data.txt",'r+')
+delete_time = open("add your path\\Data.txt",'r+')
 delete_time.truncate(0)
 delete_time.close()
 
@@ -28,7 +28,7 @@ def RingerNow(time):
 
         if current_time == Alarm_Time:
             print("Wake Up , It's Time To Work .")
-            playsound("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\Sounds\\1.mp3")
+            playsound("add your path\\Sounds\\1.mp3")
 
         elif current_time>Alarm_Time:
             break
