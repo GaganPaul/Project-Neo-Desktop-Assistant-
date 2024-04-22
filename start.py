@@ -2,15 +2,15 @@ import os
 from GoogleImageScrapper.GoogleImageScrapper import GoogleImageScraper
 
 def GoogleImage():
-    op = open("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\Text-Features\\Data.txt",'rt')
+    op = open("add your path\\Text-Features\\Data.txt",'rt')
     query = str(op.read())
     op.close()
-    oc = open("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\Text-Features\\Data.txt",'r+')
+    oc = open("add your path\\Text-Features\\Data.txt",'r+')
     oc.truncate(0)
     oc.close()
 
-    webdriver = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\webdriver\\chromedriver.exe"
-    photos = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\GooglePhotos\\"
+    webdriver = "add your path\\webdriver\\chromedriver.exe"
+    photos = "add your path\\DataBase\\GooglePhotos\\"
 
     search_keys = query  
     number = 10
