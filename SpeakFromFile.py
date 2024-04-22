@@ -104,7 +104,7 @@ def Stop():
     exit()
 
 if __name__ == "__main__":
-    folder_path = "C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\Speak\\ReadFiles\\"
+    folder_path = "add your path\\Speak\\ReadFiles\\"
 
     while True:
         command = GetVoiceInput("How can I assist you?")
