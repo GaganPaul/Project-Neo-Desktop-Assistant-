@@ -36,7 +36,7 @@ def GoogleSearch(term):
     query = query.replace("what do you mean by","")
     writeab = str(query)
 
-    with open("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\Text-Features\\Data.txt", "a") as file:
+    with open("add your path\\Text-Features\\Data.txt", "a") as file:
         file.write(writeab)
 
     Query = str(term)
@@ -68,12 +68,12 @@ def YouTubeSearch(term):
 
 def SpeedTest():
 
-    os.startfile("C:\\Users\\Gagan\\Desktop\\BlackHole\\Complete NEO series\\DataBase\\Gui_Programs\\SpeedTestGui.py")
+    os.startfile("add your path\\SpeedTestGui.py")
 
 def WolfRam(query):
 
     
-    api_key = '8WYQU6-4266QYW68L'
+    api_key = 'Add Your API KEY'
 
     requester = wolframalpha.Client(api_key)
 
